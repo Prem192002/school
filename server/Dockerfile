@@ -12,11 +12,6 @@ COPY . .
 
 COPY .env .env
 
-# Expose the port the backend will run on
 EXPOSE 8000
 
-# Set the environment variable for production
-
-
-# Start the server using npm (since your command is npm start)
 CMD ["npm", "start"]
